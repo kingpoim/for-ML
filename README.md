@@ -36,4 +36,4 @@
 
 
 
-![image]("https://github.com/kingpoim/img_for_ml/blob/master/merge.jpg")
+![image](https://github.com/kingpoim/img_for_ml/blob/master/merge.jpg)
