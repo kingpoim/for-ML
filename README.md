@@ -23,7 +23,7 @@
 ### 优化方法
 + 梯度下降法
 + 牛顿法
-+拟牛顿法
++ 拟牛顿法
 ### 线性回归的评估指标
 + R^2
 ### sklearn参数详解
@@ -32,6 +32,8 @@
 + normalize:是否将数据归一化
 + copy_X:默认为True，当为True时，X会被copied,否则X将会被覆写。
 + n_jobs:默认值为1。计算时使用的核数。
-![testimg]("/Users/zetaopan/Desktop/merge.jpg")
 
 
+
+
+![image]("https://github.com/kingpoim/img_for_ml/blob/master/merge.jpg")
