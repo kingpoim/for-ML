@@ -15,13 +15,17 @@
 4. 加入dropout层，用于神经网络，随机切断神经元的联系。
 + 交叉验证：k-fold cross validation，将数据分成k份，循环选取1份作为验证集，其余为测试集，循环k次。
 ### 线性回归原理
-+ 以一条线来最好的拟合数据。
++ 学习一个线性模型来最好的拟合数据。
+![img](https://github.com/kingpoim/img_for_ml/blob/master/linearregression.png)
 ### 线性回归损失函数、代价函数、目标函数
 + 损失函数 =（真实值-预测值）^2，损失函数越小，证明预测值越接近真实值，就是函数模拟得越好。
 + 代价函数 代价函数是损失函数的平均值
 + 目标函数 
 ### 优化方法
 + 梯度下降法
+ 参考：http://www.cnblogs.com/ooon/p/4947688.html
+ ![img](https://github.com/kingpoim/img_for_ml/blob/master/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%9B%BE.png)
+ ![img](https://github.com/kingpoim/img_for_ml/blob/master/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%9B%BE2.png)
 + 牛顿法
 + 拟牛顿法
 ### 线性回归的评估指标
@@ -36,4 +40,4 @@
 
 
 
-![image](https://github.com/kingpoim/img_for_ml/blob/master/merge.jpg)
+![image]()
