@@ -13,4 +13,25 @@
 2. 数据集扩增
 3. 正则化：L1,L2范式
 4. 加入dropout层，用于神经网络，随机切断神经元的联系。
++ 交叉验证：k-fold cross validation，将数据分成k份，循环选取1份作为验证集，其余为测试集，循环k次。
+### 线性回归原理
++ 以一条线来最好的拟合数据。
+### 线性回归损失函数、代价函数、目标函数
++ 损失函数 =（真实值-预测值）^2，损失函数越小，证明预测值越接近真实值，就是函数模拟得越好。
++ 代价函数 代价函数是损失函数的平均值
++ 目标函数 
+### 优化方法
++ 梯度下降法
++ 牛顿法
++拟牛顿法
+### 线性回归的评估指标
++ R^2
+### sklearn参数详解
++ LinearRegression(fit_intercept=True,normalize=False,copy_X=True,n_jobs=1)
++ fit_intercept:是否有截据，如果没有则直线过原点。
++ normalize:是否将数据归一化
++ copy_X:默认为True，当为True时，X会被copied,否则X将会被覆写。
++ n_jobs:默认值为1。计算时使用的核数。
+![testimg]("/Users/zetaopan/Desktop/merge.jpg")
+
 
