@@ -84,8 +84,8 @@ warm_start:bool 默认:False
 
 n_jobs: int,默认:1
 
-如果multi_class ='ovr'“，则在对类进行并行化时使用的CPU核心数。 无论是否指定'multi_class'，当``solver``设置为'liblinear'时，都会忽略此参数。 如果给定值-1，则使用所有核心。
--
+如果multi_class ='ovr'“，则在对类进行并行化时使用的CPU核心数。 无论是否指定'multi_class'，当“solver”设置为'liblinear'时，都会忽略此参数。 如果给定值-1，则使用所有核心。
+
 
 
 
